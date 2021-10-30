@@ -9,7 +9,19 @@
   </head>
   <body>
     <div>
-      <h2 id="clock">00:00:00</h2>
+      <div id="top-bar">
+        <div id="todays-info">
+          <h2 id="date">2021.10.31 Saturday</h2>
+          <h2 id="clock">00:00:00</h2>
+        </div>
+        <div id="weather">
+          <span></span>
+          &nbsp;
+          <span></span>
+          &nbsp;
+          <span></span>
+        </div>
+      </div>
       <form class="hidden" id="login-form">
         <input required type="text" placeholder="What is your name?" />
         <button>Log In</button>
@@ -24,11 +36,6 @@
       </form>
       <ul id="todo-list"></ul>
       <div id="quote">
-        <span></span>
-        <span></span>
-      </div>
-      <div id="weather">
-        <span></span>
         <span></span>
         <span></span>
       </div>

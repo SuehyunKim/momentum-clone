@@ -1,3 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+@import "reset.css";
+@import "background.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#todays-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+#weather {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#todo-form input {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+#todo-form input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+#greeting {
+  margin-top: 10%;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  font-size: 75px;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 25px;
+  align-items: center;
+  color: white;
+}
+
+#todo-list button {
+  cursor: pointer;
+  background: none;
+  border: 1px solid white;
+  font-size: 18px;
+  color: white;
+  margin-left: 8px;
+}
+
+#quote {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+}
+
 .hidden {
   display: none;
 }
