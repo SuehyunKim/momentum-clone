@@ -4,6 +4,7 @@
 @import "login.css";
 @import "info.css";
 @import "todo.css";
+@import "no-mobile.css";
 
 .hidden {
   display: none;
