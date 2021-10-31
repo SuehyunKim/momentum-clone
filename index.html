@@ -11,20 +11,21 @@
     <div>
       <div id="top-bar">
         <div id="todays-info">
-          <h2 id="date">2021.10.31 Saturday</h2>
-          <h2 id="clock">00:00:00</h2>
+          <h2 id="date">2021.10.31 </h2>
+          <h2 id="day">Saturday </h2>
         </div>
         <div id="weather">
           <span></span>
           &nbsp;
           <span></span>
-          &nbsp;
+          <br />
           <span></span>
         </div>
       </div>
+      <h1 id="clock">00:00:00</h2>
       <form class="hidden" id="login-form">
-        <input required type="text" placeholder="What is your name?" />
-        <button>Log In</button>
+        <p>Hello, what's your name?</p>
+        <input required type="text" />
       </form>
       <h1 id="greeting" class="hidden"></h1>
       <form id="todo-form">
@@ -34,7 +35,9 @@
           required
         />
       </form>
-      <ul id="todo-list"></ul>
+      <div id="todo-list-container">
+        <ul id="todo-list"></ul>
+      </div>
       <div id="quote">
         <span></span>
         <span></span>

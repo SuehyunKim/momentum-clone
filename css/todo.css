@@ -1,0 +1,53 @@
+#todo-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#todo-form input {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid white;
+  font-size: 25px;
+  text-align: center;
+  color: aliceblue;
+  width: 400px;
+}
+
+#todo-form input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+#todo-list {
+  font-size: 25px;
+  color: white;
+}
+
+#todo-list button {
+  position: relative;
+  cursor: pointer;
+  background: none;
+  border: 1px solid white;
+  font-size: 10px;
+  color: white;
+  margin-left: 8px;
+  border-radius: 20%;
+  padding: 3px 3px;
+}
+
+#todo-list-container {
+  display: flex;
+  justify-content: center;
+  line-height: 35px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}

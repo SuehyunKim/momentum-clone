@@ -48,6 +48,4 @@ if (savedToDos !== null) {
     parsedToDos.forEach(paintToDo);
 }
 
-
-
 toDoForm.addEventListener("submit", handleToDoSUbmit);
